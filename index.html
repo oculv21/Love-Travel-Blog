@@ -5,20 +5,50 @@
         <meta charset="UTF-8" > 
         <meta name="author" content="Olivia Culver">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+        <link rel="stylesheet" href="https://yarn.pm/normalize.css">
+        <link rel="stylesheet" href="styles.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
         <div class="container">
-            <h1>Love Travel Blog</h1>
-            <nav>
-                <ul>
-                    <li>Blog Entries</li>
-                    <li>Destinations</li>
-                    <li>Travel Tips</li>
-                    <li>Photography</li>
-                </ul>
-            </nav>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light style="background-color: #afeeee">
+                    <a class="navbar-brand" href="#">Love Travel Blog
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                          
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Destinations</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog Entries
+                                </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">2017 Trips</a>
+                                    <a class="dropdown-item" href="#">2018 Trips</a>
+                                    <a class="dropdown-item" href="#">2019 Trips</a>
+                                  </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Travel Tips</a>
+                            </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search Blog</button>
+                            </form>
+                    </div>
+                </nav>
+            </header>
             <article>
                 <h2>The Best Cities for Solo Female Travelers</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mauris metus. Etiam id ultrices urna. Curabitur cursus augue tortor, sit amet congue nulla aliquet eget. Donec velit nisi, finibus quis eros non, faucibus laoreet ante. Nam dictum orci sit amet ornare consectetur. Quisque sodales massa nec aliquet aliquam. Nunc ac purus mattis, porttitor dolor ut, commodo magna. Donec viverra risus magna, ac facilisis tortor porta at. In eleifend, libero in gravida venenatis, quam urna venenatis tellus, nec aliquam magna eros quis arcu. Suspendisse vel placerat justo.</p>
@@ -36,7 +66,6 @@
             <aside>
                 <ul>
                     Featured Blog Posts
-                    <li>Backpacking Tips</li>
                     <li>Best Hiking Tours</li>
                     <li>Cheap Tropical Destinations</li>
                     <li>The Natural Beauty of Brazil</li>
