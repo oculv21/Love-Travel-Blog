@@ -1,5 +1,15 @@
-<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="332" height="58" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
-  <text font-style="italic" stroke="#000" transform="matrix(1.769506827551055,0,0,2.132986533495881,-166.23722389353247,-183.5412108236927) " xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="24" id="svg_2" y="175.686364" x="177.196582" stroke-width="0" fill="#3cb371">L   ve Travel Blog</text>
-  <path stroke="#000" id="svg_3" d="m187.252746,169.510478c5.978283,-16.538217 29.401391,0 0,21.263422c-29.401391,-21.263422 -5.978283,-37.801639 0,-21.263422z" stroke-width="1.5" fill="#ff5656"/>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="60" width="334" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text font-style="italic" stroke="#000" transform="matrix(1.769506827551055,0,0,2.132986533495881,-166.23722389353247,-183.5412108236927) " xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="24" id="svg_2" y="108.000918" x="94.25147" stroke-width="0" fill="#3cb371">L   ve Travel Blog</text>
+  <path stroke="#000" id="svg_3" d="m40.480803,25.138332c5.978283,-16.538217 29.401391,0 0,21.263422c-29.401391,-21.263422 -5.978283,-37.801639 0,-21.263422z" stroke-width="1.5" fill="#ff5656"/>
+ </g>
 </svg>
