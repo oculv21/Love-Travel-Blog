@@ -8,9 +8,9 @@
         <link rel="stylesheet" href="https://yarn.pm/normalize.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
-    <body class="text-info">
+    <body class="">
         <div class="container">
-            <header>
+            <header> <!--NAVIGATION------->
                 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-success pb-0">
                     <a class="navbar-brand" href="#">
                         <img src="logo.svg" width="240" height="100" alt="" class="mr-5">
@@ -42,21 +42,51 @@
             </header>
 
             <div class="row">
-                <article class="col-md-8">
+              <!--WELCOME PHOTO AND SIDEBAR------->
+                <div class="card text-white col-lg-8 my-3 px-0 py-0 ml-2">
+                    <img src="headerphoto.jpg" class="card-img" alt="Palm tree and colorful sign">
+                    <div class="card-img-overlay pb-0 mb-0">
+                      <h5 class="card-title">Welcome To the Best Blog for Travel Lovers!</h5>
+                      <p class="card-text">Learn about the hottest new destinations, travel tips, and city/country guides.</p>
+                    </div>
+                  </div>
+                <div class="d-flex flex-sm-column mx-auto flex-nowrap">
+                  <div class="card border-success col-sm-3 mx-auto mt-3 overflow-auto" style="max-width: 18rem; max-height: 18rem; min-height: 18rem; min-width: 15rem;">
+                      <div class="card-header">Popular Posts</div>
+                      <div class="card-body text-success">
+                        <ul>
+                          <li><a href="#">Best Hiking Tours in South America</a></li>
+                          <li><a href="#">Cheapest Tropical Destinations</a></li>
+                          <li><a href="#">The Best 2-Week Initerary for Italy</a></li>
+                          <li><a href="#">Safety Tips for Female Solo Travelers</a></li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card border-success text-center col-sm-3 mt-3" style="min-width: 15rem; max-width: 18rem; min-height: 12rem">
+                      <div class="card-body">
+                        <h5 class="card-title">Sign Up For Our Newsletter</h5>
+                        <input class="input-group" type="email" name="email" placeholder="Your Email Address">
+                        <a href="#" class="btn btn-success mt-3">Sign Up</a>
+                      </div>
+                  </div>
+                </div>
+
+              
+                <article class="">
                     <h2>The Best Cities for Solo Female Travelers</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu mauris metus. Etiam id ultrices urna. Curabitur cursus augue tortor, sit amet congue nulla aliquet eget. Donec velit nisi, finibus quis eros non, faucibus laoreet ante. Nam dictum orci sit amet ornare consectetur. Quisque sodales massa nec aliquet aliquam. Nunc ac purus mattis, porttitor dolor ut, commodo magna. Donec viverra risus magna, ac facilisis tortor porta at. In eleifend, libero in gravida venenatis, quam urna venenatis tellus, nec aliquam magna eros quis arcu. Suspendisse vel placerat justo.</p>
                 </article>
 
-                <article class="col-md-8">
+                <article class="">
                     <h2>Bucket List European Adventures</h2>
                     <p>Mauris maximus velit nisl, sit amet facilisis lectus faucibus laoreet. Integer eleifend ipsum arcu. Sed non aliquet lacus. Maecenas molestie rhoncus massa, iaculis ullamcorper leo vulputate quis. Integer sagittis lacinia nulla, sollicitudin dignissim ligula varius id. Mauris tincidunt eros sapien, sit amet egestas purus pellentesque ac. Suspendisse congue maximus nulla quis aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ligula quam, dapibus at est et, commodo viverra mauris. Etiam egestas diam urna, id vulputate nisi fermentum id. Aliquam cursus lectus id eros molestie euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In hac habitasse platea dictumst.</p>
                 </article>
 
-                <article class="col-md-8">
+                <article class="">
                     <h2>8 Must-visit Museums All Around the World</h2>
                     <p>Pellentesque quis augue mollis, dignissim dolor eget, ultricies orci. Morbi blandit, sem a tempus rutrum, massa eros molestie est, at ullamcorper est mi nec ante. In elit felis, tristique in ornare vel, vehicula a eros. Sed placerat sit amet elit et ornare. Cras eleifend, dolor ac convallis mattis, neque magna vulputate lectus, at pulvinar risus quam non ligula. Quisque a turpis vel metus commodo sagittis sed et diam. Sed vitae rutrum nisi. Nullam ut sem purus. Aenean ex turpis, volutpat a orci pellentesque, semper feugiat nulla. Suspendisse mauris enim, varius ac massa quis, maximus ultrices justo. Etiam et finibus augue. Morbi urna tellus, mattis eleifend sagittis at, vehicula sit amet ipsum. In eget libero id est dapibus vestibulum non quis elit. Vivamus tincidunt eu turpis sed sodales. </p>
                 </article>
-                <aside class="col-sm-4">
+                <aside class="">
                     <ul>
                         <h3>Featured Blog Posts</h3>
                         <li>Best Hiking Tours</li>
