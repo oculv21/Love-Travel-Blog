@@ -32,7 +32,10 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">All Blog Posts</a>
-                          </li>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-success" data-toggle="modal" data-target="#emailsignup">Become a Travel Lover</a>
+                        </li>
                       </ul>
                       <form class="form-inline">
                         <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -42,6 +45,42 @@
                   </nav>
                 </div>  
             </header>
+
+            <!--EMAIL SIGN UP MODAL-->
+            <div class="modal fade" id="emailsignup" tabindex="-1" role="dialog" aria-labelledby="EmailModal" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-center" id="EmailModal">Love travel as much as we do? Sign up for our travel lover emails!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="agreement">
+                          <label class="form-check-label" for="agreement">
+                            I agree to receive emails from LoveTravelBlog. 
+                          </label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
               <!--WELCOME CAROUSEL------->
                   <div class="bd-example my-5">
@@ -181,10 +220,11 @@
                   </div>
                 </div>
               </div> <!--end card deck 2-->
-        </div> <!--CONTAINER-->
+        </div> <!-- end CONTAINER-->
+
         <!--FOOTER-->
         <div class="border-top border-success container-fluid mt-5 mb-1">
-          <div class="row justify-content-start">
+          <div class="d-flex row justify-content-start">
             <div class="col-4 align-self-end">
               <a href="#"><img src="IG.svg" alt="Instagram" height="30px" width="30px" class="mx-2 my-2"></a>
               <a href="#"><img src="pinterest.svg" alt="Pinterest" height="30px" width="30px" class="mx-2 my-2"></a>
@@ -192,7 +232,7 @@
               <p class="mb-1 mt-5">&copy; 2019 Love Travel Blog. All Rights Reserved</p>
             </div> <!--logos div-->
            
-            <div class="col-4 align-self-center">
+            <div class="col-4">
               <ul class="list-group list-group-flush text-center">
                 <li class="list-group-item"><a href="#">About Us</a></li>
                 <li class="list-group-item"><a href="#">FAQ</a></li>
@@ -200,6 +240,14 @@
                 <li class="list-group-item"><a href="#">Contact Us</a></li>
               </ul>
             </div> <!--menu list div-->
+
+            <div class="card text-center col-4 ml-auto d-none d-md-flex" style="min-width: 15rem; max-width: 18rem; min-height: 12rem">
+              <div class="card-body">
+                <h5 class="card-title">Sign Up For Our Newsletter</h5>
+                <input class="input-group" type="email" name="email" placeholder="Email Address">
+                <a href="#" class="btn btn-success mt-3">Sign Up</a>
+              </div>
+            </div>
           </div> <!--row div-->
         </div>
 
